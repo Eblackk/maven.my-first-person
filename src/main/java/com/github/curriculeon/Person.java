@@ -12,20 +12,25 @@ public class Person {
         this.age = 2147483647;
     }
 
-    public Person(int age) {
+    public Person(Integer age) {
+        this.age = age;
     }
 
     public Person(String name) {
-
+        this.name = name;
     }
 
-    public Person(String name, int age) {
+    public Person(String name, Integer age) {
+        this.name = name;
+        this.age = age;
     }
 
     public void setName(String name) {
+        this.name = name;
     }
 
-    public void setAge(int age) {
+    public void setAge(Integer age) {
+        this.age = age;
     }
 
     public String getName() {
